@@ -42,7 +42,7 @@ img {
   grid-gap: 20px;
   padding: 0;
   list-style: none;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .main-nav a {
@@ -91,12 +91,14 @@ img {
   font-size: 4rem;
   margin-bottom: 0;
   color: var(--light);
+  background: rgba(104, 104, 104, 0.8);
 }
 
 .showcase p {
   font-size: 1.3rem;
   margin-top: 0;
   color: var(--light);
+  background: rgba(104, 104, 104, 0.8);
 }
 
 /* Top box */
@@ -125,6 +127,7 @@ img {
 .boxes {
   display: grid;
   grid-gap: 20px;
+  padding-top: 1.2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
@@ -142,7 +145,56 @@ img {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
+  margin: 1.2rem 0 1.2rem;
   padding: 3rem;
+}
+.info .btn {
+  float: right;
+}
+
+/* excercise photos */
+.ex-title {
+  text-align: center;
+}
+
+.num-icon {
+  display: block;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+}
+
+.boxes-ex {
+  display: grid;
+  grid-gap: 20px;
+  padding-top: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.box-ex {
+  background: var(--primary);
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+.box-ex p {
+  font-size: 30px;
+}
+
+.box-ex ul .duration {
+  padding-left: 1.8rem;
+  color: grey;
+}
+
+.box-ex ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.ex-photo {
+  width: 200px;
+  height: 200px;
 }
 
 /* porfolio */
