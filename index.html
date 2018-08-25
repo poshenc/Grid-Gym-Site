@@ -33,15 +33,31 @@
 				<a href="mon.html" class="btn">免費菜單</a>
 			</header>
 			<div class="top-box top-box-a">
+				<h2>免費諮詢</h2>
+				<p class="price">Johnson</p>
+				<a href="https://line.me/ti/p/nMvLiMZJIq"><img src="img/line-add.png" alt="" class="line-add"></a>
+				<div class="qr hide" id="qr">
+					<img src="img/line-qr.jpg" alt="" />
+				</div>
+			</div>
+			<div class="top-box top-box-b">
 				<h4>專屬一對一課程</h4>
 				<p class="price">體驗價$499</p>
 				<a href="#" class="btn" id="btn1">預約體驗</a>
 			</div>
-			<div class="top-box top-box-b">
-				<h4>客製化飲食菜單</h4>
-				<p class="price">$399/份</p>
-				<a href="#" class="btn" id="btn2">我要報名</a>
-			</div>
+
+
+			<script>
+				var qr1 = document.querySelector(".line-add");
+				qr1.onmouseover = function () {
+					document.getElementById("qr").className = "qr show";
+				};
+
+				qr1.onmouseout = function () {
+					document.getElementById("qr").className = "qr hide";
+				};
+			</script>
+
 			</header>
 		</section>
 

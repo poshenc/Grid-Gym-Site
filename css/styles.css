@@ -275,6 +275,26 @@ input {
   cursor: pointer;
 }
 
+/* Qr code */
+.qr {
+  position: absolute;
+  top: 400px;
+  width: 217px;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.line-add {
+  width: 150px;
+  height: auto;
+}
+
 /* Footer */
 footer {
   margin-top: 2rem;
